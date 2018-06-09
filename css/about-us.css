@@ -1,0 +1,86 @@
+
+/* header */
+
+header{
+	margin-top: 50px;
+}
+
+/* company */
+@media screen and (max-width: 768px) {
+	.company h3{
+		font-size: 18px;
+	}
+}
+.company{
+	padding:80px 0 60px;
+}
+.company p{
+	line-height: 32px;
+	text-indent: 25px;
+}
+.img-hover:hover{
+	opacity: 0.8;
+}
+
+/* zhaopin */
+.zhaopin{
+	background: #8cc11f;
+	color: #fff;
+	padding: 80px 0 70px;
+}
+.z-h1{
+	padding-bottom: 20px;
+}
+.zhaopin p{
+	margin-bottom: 20px;
+}
+.zhaopin .btn{
+	margin-bottom: 20px;
+}
+.zhaopin a{
+	color: #8cc11f;
+	font-weight: bold;
+}
+
+/* zhaopin-content */
+.zhaopin-content{
+	padding: 50px 0;
+}
+.page-header{
+	border-bottom: none;
+}
+.page-header h2{
+	font-size: 25px;
+	color: #8cc11f;
+}
+.zhaopin-content .list-item{
+	border-bottom: 1px solid #d2d2d2;
+	padding:30px 0 50px;
+}
+.zhaopin-content .last{
+	border-bottom:none;
+}
+.zhaopin-content .caption li{
+	line-height: 32px;
+}
+
+/* contact-us */
+.contact-us{
+	background: #f4f4f4;
+	padding: 40px 0;
+}
+
+.contact-us .media img{
+	margin-right: 10px;
+	float: left;
+}
+.middle{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	height: 70px;
+}
+
+.contact-us .well{
+	background: #fff;
+}
